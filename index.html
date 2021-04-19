@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body{
+    background-color:purple;
+
+}
+.grid {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  grid-template-columns: repeat(5,20%);
+  grid-template-rows: repeat(3,minmax(200px,auto));
+
+}
+
+.celda1 {
+  background-color:turquoise;
+  text-align: center;
+  grid-column-start: 1; 
+  grid-column-end: 3; 
+  grid-row-start: 1; 
+  grid-row-end: 3;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.celda2 {
+  background-color:lightskyblue;
+  text-align: center;
+  grid-column-start: 3; 
+  grid-column-end: 6; 
+  grid-row-start: 1; 
+  grid-row-end: 1;
+  margin-left: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px
+}
+
+.celda3 {
+  background-color:sienna;
+  text-align: center;
+  grid-column-start: 3; 
+  grid-column-end: 5; 
+  grid-row-start: 2; 
+  grid-row-end: 4;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.celda4 {
+  background-color:teal;
+  text-align: center;
+  grid-column-start: 5; 
+  grid-column-end: 5; 
+  grid-row-start: 2; 
+  grid-row-end: 2;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.celda5 {
+    background-color:palevioletred;
+  text-align: center;
+  grid-column-start: 1; 
+  grid-column-end: 3; 
+  grid-row-start: 3; 
+  grid-row-end: 3;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.celda6 {
+  background-color: grey;
+  text-align: center;
+  grid-column-start: 5; 
+  grid-column-end: 5; 
+  grid-row-start: 3; 
+  grid-row-end: 3;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+ 
+}
+
+</style>
+</head>
+<body>
+
+<div class="grid">
+  <div class="celda1">1</div>
+  <div class="celda2">2</div>
+  <div class="celda3">3</div>
+  <div class="celda4">4</div>
+  <div class="celda5">5</div>
+  <div class="celda6">6</div>
+</div>
+
+</body>
+</html>
